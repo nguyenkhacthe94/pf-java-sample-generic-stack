@@ -5,7 +5,7 @@ public class MyGenericStack<T> {
     private LinkedList<T> stack;
 
     public MyGenericStack() {
-        stack = new LinkedList();
+        stack = new LinkedList<>();
     }
 
     public void push(T element) {
